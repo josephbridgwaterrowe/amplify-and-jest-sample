@@ -1,0 +1,20 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplifyandjestsample-20190211090356-authRole",
+			"UnauthRoleArn": "arn:aws:iam::653296789040:role/amplifyandjestsample-20190211090356-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::653296789040:role/amplifyandjestsample-20190211090356-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "amplifyandjestsample-20190211090356-deployment",
+			"UnauthRoleName": "amplifyandjestsample-20190211090356-unauthRole",
+			"StackName": "amplifyandjestsample-20190211090356",
+			"StackId": "arn:aws:cloudformation:us-west-2:653296789040:stack/amplifyandjestsample-20190211090356/03547000-2e1f-11e9-95b9-027fe4f7c9fc"
+		}
+	},
+	"auth": {
+		"cognito63d610b2": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
